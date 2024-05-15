@@ -4,7 +4,7 @@ import Link from "next/link";
 const Hotel = ({ e }) => {
   return (
     <>
-   <div className=" border-2 border-blue-500 rounded-lg h-auto">
+   <div className=" border-2 border-blue-500 rounded-lg h-auto bg-blue-100">
       <div className="flex flex-wrap items-center lg:gap-6 ml-5  p-3">
         <Image
           src={e?.banner}

@@ -37,7 +37,7 @@ const Filters = ({price , setPrice , handlePrice , checkedList, setCheckedList})
 
   return (
     <>
-    <div className="border-2 border-blue-500 bg-blue-300 rounded-md ml-4 mt-5 py-10 px-3 md:flex md:flex-wrap md:justify-between">
+    <div className="border-2 border-blue-500 bg-blue-100 rounded-md ml-4 mt-5 py-10 px-3 md:flex md:flex-wrap md:justify-between">
   <div className="flex flex-wrap items-center border-2 border-blue-500  p-1 ">
     <label htmlFor="price" className="text-xl  mr-3 font-bold">
       Price :{" "}

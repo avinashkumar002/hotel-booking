@@ -27,13 +27,13 @@ const Header1 = () => {
 
   return (
     <div className="flex  justify-between border-b-2 border-blue-500 bg-blue-500 items-center">
-      <div className="font-bold text-5xl cursor-pointer flex items-center text-gray-900 p-1.5 ml-8">TRIPY</div>    
-      <div className="font-semibold text-xl font-serif">
+      <div className="font-bold text-5xl cursor-pointer flex items-center text-white p-1.5 ml-8">TRIPY</div>    
+      <div className="font-semibold text-xl text-white font-serif">
         Find home far from home.
       </div>
         <div className="flex items-center ">
           {auth ? (
-  <button className="font-bold cursor-pointer border border-blue-500 bg-indigo-300
+  <button className="font-bold text-white cursor-pointer border border-blue-500 bg-indigo-300
 
   px-4 py-2 mr-10 rounded" onClick={handleLogout}>
     Logout
@@ -41,8 +41,7 @@ const Header1 = () => {
 ) : (
   <Link href={"/login"} className="font-bold">
     <button className="border-2 border-blue-500 bg-indigo-300
-
-text-gray-700 justify-content ml-6 mr-6  px-2 py-2 rounded">Login | Signup</button>
+text-white justify-content ml-6 mr-6  px-2 py-2 rounded">Login | Signup</button>
   </Link>
 )}
         </div>
