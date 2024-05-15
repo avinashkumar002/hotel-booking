@@ -21,7 +21,7 @@ export default async function handler(req, res) {
       // Check if the user exists
       const user = await User.findOne({ email });
       if (!user) {
-        return res.status(400).json({ msg: "Please register first!" });
+        return res.status(400).json({ msg: "Please register first !" });
       }
 
       // Compare passwords
