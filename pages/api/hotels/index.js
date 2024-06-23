@@ -30,11 +30,11 @@ export default async function handler(req, res) {
 
 
 
-  //     //  to add new hotel:-------------
-//     // if(req.method=== "POST"){
-//     //     const newHotel = new Hotel(req.body);
-//     //     const result = await newHotel.save();
-//     //     4;
-//     //     res.status(201).json({msg: "Hotel added !", result});
-//     // }
+  // //     //  to add new hotel:-------------
+  //    if(req.method=== "POST"){
+  //       const newHotel = new Hotel(req.body);
+  //       const result = await newHotel.save();
+  //       4;
+  //       res.status(201).json({msg: "Hotel added !", result});
+  //   }
 }
